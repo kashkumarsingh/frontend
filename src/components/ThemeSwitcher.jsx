@@ -1,17 +1,24 @@
+import Form from "react-bootstrap/Form";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleTheme } from "../slices/themeSlice";
 const ThemeSwitcher = () => {
-  return (
-    <>
-      <div className="dark-mode-toggle text-center w-100">
-        <hr className="mb-4" />
-        <h4 className="toggle-name mb-3 ">
-          <i className="fas fa-adjust me-1"></i>Dark Mode
-        </h4>
+  const isDarkMode = useSelector((state) => state.theme.isDarkMode);
+  const dispatch = useDispatch();
 
-        <input className="toggle" id="darkmode" type="checkbox" />
-        <label className="toggle-btn mx-auto mb-0" htmlFor="darkmode"></label>
-      </div>
-      {/*dark-mode-toggle*/}
-    </>
+  const handleToggleTheme = () => {
+    dispatch(toggleTheme());
+  };
+
+  return (
+    <Form>
+      <Form.Check
+        type="switch"
+        id="themeSwitch"
+        label={isDarkMode ? "Dark Mode" : "Light Mode"}
+        checked={isDarkMode}
+        onChange={handleToggleTheme}
+      />
+    </Form>
   );
 };
 export default ThemeSwitcher;

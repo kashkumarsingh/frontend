@@ -32,7 +32,7 @@ const NavigationBar = () => {
           <NavItem links={links} />
           </div>
           
-          <div className="navigation__footer">
+          <div className="navigation__footer mt-5">
           <ThemeSwitcher />
           </div>
         </div>

@@ -2,12 +2,12 @@
 // import { faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from "react-router-dom"
-import StickyBox from "react-sticky-box";
+// import StickyBox from "react-sticky-box";
 import NavigationBar from "./NavigationBar";
 
 const Sidebar = () => {
   return (
-    <StickyBox  offsetBottom={20} style={{zIndex: "1"}}>
+    // <StickyBox  offsetBottom={20} style={{zIndex: "1"}}>
       <header className="header text-center">
         <div className="force-overflow">
           <h1 className="blog-name pt-lg-4 mb-0">
@@ -20,7 +20,7 @@ const Sidebar = () => {
         </div>
         {/* Sidebar */}
       </header>
-    </StickyBox>
+    // </StickyBox>
   );
 }
 export default Sidebar
