@@ -1,10 +1,10 @@
 const projects = [
   {
     category: ["frontend", "react", "tailwind"], // Category of the project (can have multiple categories)
-    imageSrc: "/assets/images/projects/project-1.jpg", // Image source for the project
-    title: "1.Analytics Tailwind Dashboard", // Project title
+    imageSrc: "/assets/images/projects/uiux_web_design_project1.jpg", // Image source for the project
+    title: "Redwing: A VFX-Studio Website Design : A UI/UX Case Study", // Project title
     description:
-      "Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.", // Project description
+      "Redwing-VFX-Studio was a new company in the market and aimed to attract clients through their landing page by showcasing their services and existing portfolio, as well as attracting potential candidates interested in joining the company.", // Project description
     techStack: [
       {
         alt: "JavaScript",
@@ -42,10 +42,10 @@ const projects = [
   },
   {
     category: ["uiux", "bootstrap", "react"], // Category of the project (can have multiple categories)
-    imageSrc: "/assets/images/projects/project-1.jpg", // Image source for the project
-    title: "2.Analytics Tailwind Dashboard", // Project title
+    imageSrc: "/assets/images/projects/uiux_web_design_suayu.jpg", // Image source for the project
+    title: "Revitalizing SuAyu: A UX/UI Case Study for a B2B and B2C E-commerce Website", // Project title
     description:
-      "Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.", // Project description
+      "SuAyu is an Indian healthcare company that specializes in developing innovative healthcare solutions using natural sources. The company offers a wide range of products, including supplements, herbal remedies, and wellness programs. The company provides Ayurvedic supplements and wellness products and their products are formulated using natural ingredients and Ayurvedic principles. ", // Project description
     techStack: [
       {
         alt: "JavaScript",

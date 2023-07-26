@@ -5,7 +5,7 @@ const PortfolioCard = ({ project }) => {
     <div className={`isotope-item ${category.join(' ')} col-md-6 mb-5`}>
     <div className="card project-card">
       <div className="card-header">
-        <img src={imageSrc} className="card-img img-fluid" alt="image" />
+       <img src={imageSrc} className="card-img img-fluid" alt="image" />
       </div>
       <div className="card-body">
         <h5 className="card-title">
