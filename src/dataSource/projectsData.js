@@ -1,7 +1,7 @@
 const projects = [
   {
     category: ["frontend", "react", "tailwind"], // Category of the project (can have multiple categories)
-    imageSrc: "/assets/images/projects/uiux_web_design_project1.jpg", // Image source for the project
+    imageSrc: ["/assets/images/projects/redwing_uiux_cover.jpg", "/assets/images/projects/redwing_uiux_cover.jpg"], // Image source for the project
     title: "Redwing: A VFX-Studio Website Design : A UI/UX Case Study", // Project title
     description:
       "Redwing-VFX-Studio was a new company in the market and aimed to attract clients through their landing page by showcasing their services and existing portfolio, as well as attracting potential candidates interested in joining the company.", // Project description
@@ -42,7 +42,7 @@ const projects = [
   },
   {
     category: ["uiux", "bootstrap", "react"], // Category of the project (can have multiple categories)
-    imageSrc: "/assets/images/projects/uiux_web_design_suayu.jpg", // Image source for the project
+    imageSrc: ["/assets/images/projects/suayu_uiux_cover.jpg","/assets/images/projects/suayu_uiux_cover.jpg"], // Image source for the project
     title: "Revitalizing SuAyu: A UX/UI Case Study for a B2B and B2C E-commerce Website", // Project title
     description:
       "SuAyu is an Indian healthcare company that specializes in developing innovative healthcare solutions using natural sources. The company offers a wide range of products, including supplements, herbal remedies, and wellness programs. The company provides Ayurvedic supplements and wellness products and their products are formulated using natural ingredients and Ayurvedic principles. ", // Project description
@@ -83,7 +83,7 @@ const projects = [
   },
   {
     category: ["frontend", "react", "bootstrap"], // Category of the project (can have multiple categories)
-    imageSrc: "/assets/images/projects/project-1.jpg", // Image source for the project
+    imageSrc: ["/assets/images/projects/proshine_uiux_cover.jpg","/assets/images/projects/proshine_uiux_cover.jpg"], // Image source for the project
     title: "3.Analytics Tailwind Dashboard", // Project title
     description:
       "Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.", // Project description
@@ -124,7 +124,7 @@ const projects = [
   },
   {
     category: ["uiux", "frontend"], // Category of the project (can have multiple categories)
-    imageSrc: "/assets/images/projects/project-1.jpg", // Image source for the project
+    imageSrc: ["/assets/images/projects/websitemockup.jpg","/assets/images/projects/websitemockup.jpg"], // Image source for the project
     title: "4.Analytics Tailwind Dashboard", // Project title
     description:
       "Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.", // Project description

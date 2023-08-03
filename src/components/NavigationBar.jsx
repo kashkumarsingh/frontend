@@ -1,14 +1,11 @@
+import PropTypes from "prop-types";
 import { Navbar } from "react-bootstrap";
 import ThemeSwitcher from "./ThemeSwitcher";
 import NavItem from "./NavItem";
 import SocialLinks from "./SocialLinks";
 
-const links = [
-  { href: "about", label: "About Me", icon: "user" },
-  { href: "portfolio", label: "My Portfolio", icon: "briefcase" },
-  { href: "skills", label: "My Skills", icon: "laptop-code" },
-];
-const NavigationBar = () => {
+
+const NavigationBar = ({links}) => {
   return (
     <Navbar  expand="lg" variant="dark" collapseOnSelect>
       <Navbar.Toggle aria-controls="navigation" />
@@ -28,9 +25,9 @@ const NavigationBar = () => {
               <hr />
             </div>
           </div>
-          <div className="navigation__body">
-          <NavItem links={links} />
-          </div>
+            <div className="navigation__body">
+            <NavItem links={links} />
+            </div>
           
           <div className="navigation__footer mt-5">
           <ThemeSwitcher />
@@ -39,5 +36,15 @@ const NavigationBar = () => {
       </Navbar.Collapse>
     </Navbar>
   );
+};
+// Define propTypes for the 'links' prop
+NavigationBar.propTypes = {
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      href: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      icon: PropTypes.string,
+    })
+  ).isRequired,
 };
 export default NavigationBar;

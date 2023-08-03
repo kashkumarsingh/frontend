@@ -429,7 +429,7 @@ textarea.form-control {
 }
 
 .header .nav-item .nav-link.active {
-  color: rgba(0, 0, 0, 0.5)
+  color: rgb(89 113 209);
 }
 
 .header .nav-item .nav-link.active:hover {
@@ -441,7 +441,7 @@ textarea.form-control {
 }
 
 .header .nav-item .nav-link:hover {
-  color: rgba(0, 0, 0, 0.6)
+  color: rgb(89 113 209);
 }
 
 .header .nav-item .nav-link[aria-expanded="true"] {
@@ -850,9 +850,9 @@ textarea.form-control {
   padding: 1rem;
 }
 
-.project-card .card-body h5 a {
+/* .project-card .card-body h5 a {
   text-decoration: none;
-}
+} */
 
 .project-card:hover .link-mask {
   visibility: visible;
@@ -1691,11 +1691,11 @@ body.dark-mode .header .nav-item .nav-link:hover {
 }
 
 body.dark-mode .header .nav-item .nav-link.active {
-  color: #111d4e
+  color: #eef1ff
 }
 
 body.dark-mode .header .nav-item .nav-link.active:hover {
-  color: #111d4e
+  color: #eef1ff
 }
 
 body.dark-mode .header .nav-item .dropdown-menu {

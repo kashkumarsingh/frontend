@@ -23,11 +23,14 @@ import HomePage from "./pages/HomePage.jsx";
 // CSS Import
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+import ProjectPage from "./pages/ProjectPage.jsx";
+//import ProjectCard from "./components/ProjectCard.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<HomePage />} />
+      <Route path="/project/:projectName" element={<ProjectPage/>}/>
     </Route>
   )
 );

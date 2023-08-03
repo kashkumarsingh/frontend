@@ -5,10 +5,16 @@ import AboutMe from "../scenes/aboutme";
 import Portfolio from "../scenes/portfolio";
 import Skills from "../scenes/skills";
 
+const homeLinks = [
+  { href: "about", label: "About Me", icon: "user" },
+  { href: "portfolio", label: "My Portfolio", icon: "briefcase" },
+  { href: "skills", label: "My Skills", icon: "laptop-code" },
+];
+
 const HomePage = () => {
   return (
     <>
-      <Sidebar />
+      <Sidebar links={homeLinks} />
       <div className="main-wrapper">
         <Container fluid>
           <AboutMe />
